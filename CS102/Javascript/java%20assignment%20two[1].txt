@@ -1,0 +1,147 @@
+Name:Jessica Kostiou
+
+CS-175: Java Assignment 2
+
+Deadline: Fri, 11/4, 6pm
+
+Insert your answers below the following questions and save this file in the
+cs175-java-assignments dropbox. Use a plain text editor such as notepad++ or
+jedit, NOT a word processor. For questions #7 and #8, turn in the Java
+programs separately.
+
+(The following are textbook Chapter 3 Exercises, pp. 188-189.)
+
+1. Write a fragment of code that will test whether an integer variable called
+   score contains a valid test score. Valid test scores are in the range 0 to
+   100.
+   
+
+	if (score >= 0 && score <= 100)
+	{
+	   System.out.println("This score is Valid.");
+	}
+	else
+	{
+	   System.out.println("This score is not valid.");
+	}
+
+
+
+2. Write a fragment of code that will change the integer value that is stored
+   in the variable x as follows. If x contains an even number, divide x by 2.
+   If x contains an odd number, multiply x by 3 and then subtract 1.
+
+
+	if (x % 2 == int)
+	{
+	   (x % 2)
+	}
+	else
+	{
+	   ((x * 3) - 1)
+	}
+
+
+
+3. Consider the following fragment of code:
+
+      if (x > 5)
+         System.out.println("A");
+      else if (x < 10)
+         System.out.println("B");
+      else
+         System.out.println("C");
+
+   What is printed if the variable x above contains:
+
+      a. 4 -- B
+
+      b. 5 -- B
+
+      c. 6 -- A
+
+      d. 9 -- A
+
+      e. 10 -- A
+
+      f. 11 -- A
+
+
+
+
+
+4. Consider the following fragment of code:
+
+      if (x > 5)
+      {
+         System.out.println("A");
+
+         if (x < 10)
+            System.out.println("B");
+      }
+      else
+         System.out.println("C");
+
+   What is printed if the variable x above contains:
+
+      a. 4 -- C
+
+      b. 5 -- C
+
+      c. 6 -- AB
+
+      d. 9 -- AB
+
+      e. 10 -- A
+
+      f. 11 -- A
+
+
+
+
+
+
+5. What is the value (true or false) of each of the following boolean
+   expressions if x is 5, y is 10, and z is 15?
+
+   a. (x < 5 && y > x) -- false
+
+   b. (x < 5 || y > x) -- true
+
+   c. (x > 3 || y < 10 && z == 15) -- true
+
+   d. ( !(x > 3) && (x != z) || (x + y == z) ) -- true
+
+
+
+
+
+6. What will be printed by the following code fragment?
+
+      int x = 200;
+
+      if ((x > 10) || (x < 100))
+         System.out.println("x is between 10 and 100.");
+      else
+         System.out.println("x is not between 10 and 100.");
+
+
+	      
+	x is between 10 and 100.
+  
+
+
+
+7. Complete the ValidTriangles.java program from Java Lab 2
+   (http://tinyurl.com/7vetl6k). Save and turn in ValidTriangles.java as a
+   separate file in the ecampus dropbox.
+
+
+
+
+8. Based on the LargestOfThree.java program from Java Lab 2
+   (http://tinyurl.com/7vetl6k), write a program called LargestSmallest.java
+   that inputs 5 integers from the user and finds the largest and smallest of
+   the input integers. Make sure the program can handle ties in the values
+   input by the user. Save and turn in LargestSmallest.java as a separate file
+   in the ecampus dropbox.
