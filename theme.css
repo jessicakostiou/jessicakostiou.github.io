@@ -1,76 +1,50 @@
 
-
-body {
-    background-color: #d0e4fe;
-<<<<<<< HEAD
-}
-
-h1 {
-    color: orange;
-    text-align: center;
-	background-color: #9BD7D5
-=======
-	color: #160057;
+body {   
+	background-image: url(stressed_linen_@2X.png);
 	font-family: Arial;
 	font-size: 15;
+	color: #878787
 }
 
-h1 {
-    color: #000069;
-    text-align: center;
-	background-color: #9BD7D5;
-	font-family: arial;
->>>>>>> 11bf3b411b39b2b623839d62504e8d6c13499191
+h1 {    
+	color: #999999;
+	text-align: center;
+	background-color: #292929;
+	font-family: Arial;
 }
 
 h2 {
-	color: orange;
-    text-align: center;
-<<<<<<< HEAD
-=======
-	font-family: arial;
->>>>>>> 11bf3b411b39b2b623839d62504e8d6c13499191
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Arial;
 }
 
 p {
-	color: navy;
-<<<<<<< HEAD
-    font-family: "Times New Roman";
-    font-size: 20px;
-}
 
-a:link { 
-	color: navy; text-decoration: none 
-}
-a:active { 
-	color: red; text-decoration: none 
-}
-a:visited {
-	color: blue; text-decoration: none 
-}
-a:hover { 
-	
-	color: green; text-decoration: underline }
-=======
-    font-family: Arial;
-    font-size: 10 px;
-}
-
-a:link { 
-	color: #160057; 
-	text-decoration: none;
+	font-family: Arial;
 	font-size: 10 px;
 }
-a:active { 
-	color: red; text-decoration: none ;
+
+a:link {
+ 	color: #999999;
+ 	text-decoration: none;
+	font-size: 10 px;
 }
+
+a:active {
+ 	color: red;
+	 text-decoration: none ;
+}
+
 a:visited {
-	color: #160057; 
-	text-decoration: none ;
+	color: #999999;
+ 	text-decoration: none ;
 }
-a:hover { 
-	
-	color: 2811CF; 
-	text-decoration: underline;
-	}
->>>>>>> 11bf3b411b39b2b623839d62504e8d6c13499191
+
+a:hover {
+ 	color: #D10CE8;
+ 	text-decoration: none;
+	transition: .5s;
+	} 
+
+
