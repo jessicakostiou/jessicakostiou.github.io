@@ -1,6 +1,6 @@
 @font-face {
 		    font-family: 'fontawesome';
-		    src: url('fonts/fontawesome-webfont.eot'); 
+		    src: url('fonts/fontawesome-webfont.eot');
 		    src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
 		         url('fonts/fontawesome-webfont.svg#svgFontName') format('svg'),
 		         url('fonts/fontawesome-webfont.woff') format('woff'),
@@ -9,16 +9,16 @@
 
 		@font-face {
 		    font-family: 'Inika';
-		    src: url('../fonts/Inika.eot'); 
+		    src: url('../fonts/Inika.eot');
 		    src: url('../fonts/Inika.eot?#iefix') format('embedded-opentype'),
 		         url('../fonts/Inika.svg#svgFontName') format('svg'),
 		         url('../fonts/Inika.woff') format('woff'),
 		         url('../fonts/Inika.ttf')  format('truetype');
 		}
-		
+
 		@font-face {
 		    font-family: 'Bree Serif';
-		    src: url('../fonts/Bree_Serif.eot'); 
+		    src: url('../fonts/Bree_Serif.eot');
 		    src: url('../fonts/Bree_Serif.eot?#iefix') format('embedded-opentype'),
 		         url('../fonts/Bree_Serif.svg#svgFontName') format('svg'),
 		         url('../fonts/Bree_Serif.woff') format('woff'),
@@ -30,7 +30,7 @@
 	margin:0px;
 }
 
-body {   
+body {
 	background-image: url(stressed_linen_@2X.png);
 	font-family: 'Inika';
 	font-size: 15;
@@ -39,8 +39,8 @@ body {
 	margin-left: 200px;
 }
 
-h1 {    
-	
+h1 {
+
 
 }
 
@@ -93,7 +93,7 @@ a:hover {
  	color: #D10CE8;
  	text-decoration: none;
 	transition: .5s;
-	} 
+	}
 
 
 #projectsarea {
@@ -157,7 +157,7 @@ a:hover {
 	padding-right: 10px;
 	margin-bottom: 20px;
 }
-	
+
 #aboutme{
 	font-family: 'Inika';
 	font-size: 17px;
@@ -182,3 +182,20 @@ a:hover {
 	padding-top: 5px;
 }
 
+
+	.thumbnails img {
+		height: 80px;
+		border: 4px solid #555;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+	}
+
+	.thumbnails img:hover {
+		border: 4px solid #D10CE8;
+		cursor:pointer;
+	}
+
+	.preview img {
+		border: 4px solid #444;
+		padding: 1px;
+		width: 400px;
